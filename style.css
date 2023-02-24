@@ -1,0 +1,418 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  overflow-x: hidden;
+}
+
+
+#pai-site{
+  background-color: red;
+}
+
+#app-bar{
+  background-color: rgb(134, 163, 184);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 30px;
+  font-family: Quicksand;
+
+}
+
+@media(max-width: 768px){
+  #app-bar{
+   font-size: 18px;
+  }
+}
+
+.icon-app-bar-1{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  background-color:  rgb(232, 210, 166);
+  padding: 20px;
+}
+
+
+
+@media (max-width: 768px){
+  .icon-app-bar-1{
+    display: none;
+  } 
+}
+
+.icon-camera{
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.icon-app-bar-2{
+  margin-right: 10px;
+
+}
+
+@media (max-width: 768px){
+  .icon-app-bar-2 {
+    display: none;
+  }
+}
+
+.icon-social{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+
+
+.texto-app-bar{
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.texto-app-bar-PI{
+ cursor: pointer;
+color: rgb(232, 210, 166);
+}
+  
+ 
+
+.texto-app-bar-G{
+  cursor: pointer;
+  color: rgb(232, 210, 166);
+}
+  
+.texto-app-bar-O{
+  cursor: pointer;
+  color: rgb(232, 210, 166);
+}
+  
+
+
+.texto-app-bar-C{
+  cursor: pointer;
+  color: rgb(232, 210, 166);
+}
+  
+
+
+.rosangela-richa{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.titulo{
+  font-weight: bold;
+  color: rgb(232, 210, 166);
+  font-size: 35px;
+  width: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .titulo{
+    font-size: 25px;
+  }
+}
+
+.subtitulo{
+  font-size: 20px;
+}
+
+.imagem-fundo{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 120, 0);
+  background-image: url(background-image/foto-fundo-blur.jpg);
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 100px;
+}
+
+.container-aves{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-color: white;
+}
+
+.filho1-aves{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+  gap: 50px;
+  font-family: 'Quicksand';
+  color: rgb(244, 132, 132);
+  font-size: 20px;
+  border-top: solid 10px rgb(134, 163, 184);  
+  background-color: white;
+
+}
+
+.filhos2-aves{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  filhos2-aves{
+    display: none;
+  }
+}
+
+.lista-dicas-aves{
+  background-color: white;
+  width: 100%;
+  font-family: 'Quicksand';
+  color: rgb(244, 132, 132);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width: 768px){
+  .aves{
+    font-size: 20px;
+    flex-direction: column;
+  }
+}
+
+.aves-menores{
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 768px){
+  .aves-menores{
+    display: none;
+  }
+}
+
+.imagens{
+  height: 500px;
+  width: 500px;
+}
+
+.imagem-borboleta{
+  height: 432px;
+  width: 648px;
+}
+
+.container-borboleta{
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.filho1-borboleta{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+  gap: 50px;
+  font-family: 'Quicksand';
+  color: rgb(244, 132, 132);
+  font-size: 20px;
+  border-top: solid 10px rgb(134, 163, 184);  
+  background-color: white;
+}
+
+.aves-menores-2{
+  width: 324px;
+  height: 210px;
+}
+
+.filho2-borboleta{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 100%;
+}
+@media (max-width: 768px){
+  .filho2-borboleta{
+    display: none;
+  }
+}
+
+#entrar-contato{
+  background-color: rgb(244, 132, 132);
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  color: white  
+}
+
+@media(max-width: 768px){
+  #entrar-contato{
+    padding: 0;
+    font-size: 50px;
+  }
+  
+}
+
+form{
+  background-color: rgb(244, 132, 132);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#input-container{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  padding-bottom: 100px;
+  gap: 20px;
+  width: 82vw;
+ 
+  
+}
+
+#input-container{
+  width: 70%;
+  margin-bottom: 100px;
+}
+
+
+input{
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  opacity: 0.5;
+  border: 1px solid  rgb(134, 163, 184);
+  font-family: 'Quicksand';
+}
+
+.input-nome{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-contato{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+textarea{
+  opacity: 0.5;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  resize: none;
+}
+
+label{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-container-borboletas{
+  text-align: center;
+  background-color: white;
+  font-family: quicksand;
+  color: rgb(244, 132, 132);
+  padding: 5px;
+  border-bottom: 10px solid rgb(134, 163, 184);
+  border-top: 10px solid rgb(134, 163, 184);
+  
+}
+
+.container-conteudo-borboletas{
+  width: 100vmax;
+  height: 70vmax;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly
+
+}
+
+.filho1-conteudo-borboletas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 100%;
+  background-color: white;
+  font-size: 20px;
+  font-family: quicksand;
+  color: rgb(244, 132, 132);
+}
+
+.filho2-conteudo-borboletas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 100%;
+  background-color: white;
+  font-size: 20px;
+  font-family: quicksand;
+  color: rgb(244, 132, 132);
+}
+
+.img-filhos-borb{
+  width: 500px;
+}
+
+@media (max-width: 768px){
+  .img-filhos-borb{
+    display: none;
+  }
+
+  .container-conteudo-borboletas{
+    display: flex;
+    flex-direction: column;
+    height: 100vmax;
+  }
+
+  .filho1-conteudo-borboletas{
+    font-size: 15px;
+    margin-top: 500px;
+    padding: 50px;
+  }
+
+  .filho2-conteudo-borboletas{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 50px;
+  }
+}
